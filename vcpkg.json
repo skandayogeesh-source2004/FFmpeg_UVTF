@@ -1,0 +1,13 @@
+{
+  "name": "ffmpeg-uvtf",
+  "version-string": "1.0.0",
+  "dependencies": [
+    {
+      "name": "ffmpeg",
+      "features": [
+        "x264"
+      ]
+    }
+  ],
+  "builtin-baseline": "3cd21e48a75f67acfef289da52893ce79144aaa1"
+}

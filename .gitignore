@@ -1,0 +1,39 @@
+
+# Build outputs
+build/
+cmake-build-*/
+out/
+
+# Visual Studio and VS Code
+.vs/
+.vscode/
+
+# Local dependencies
+vcpkg_installed/
+
+# Generated files
+uvtf_sender.sdp
+*.log
+
+# Development archives
+handoff*.zip
+
+# Historical patch folders
+_uvtf_patch/
+UVTF_Graceful_Shutdown_Patch/
+UVTF_Milestone_5_Statistics_Patch/
+UVTF_RTP_Receiver_D3D11_Patch/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+rtp_test_log.txt
+
+# CMake build directories
+build-*/
+
+# Local dependency installations
+vcpkg_installed/
+
+# Temporary CMake backup
+CMakeLists_backup.txt
